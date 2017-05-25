@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="passwordEditText">
+        <attr name="colorPoint" format="color"  />
+        <attr name="colorLine" format="color" />
+        <attr name="colorBound" format="color" />
+        <attr name="passwordLength" format="integer" />
+        <attr name="pointRadius" format="integer" />
+
+    </declare-styleable>
+
+</resources>
