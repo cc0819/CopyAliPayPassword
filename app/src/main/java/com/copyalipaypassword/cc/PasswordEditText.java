@@ -63,11 +63,8 @@ public class PasswordEditText extends EditText {
 
 
     private void init() {
-
-        //设置获取焦点
         setFocusable(true);
         setFocusableInTouchMode(true);
-        //移除自带光标
         setCursorVisible(false);
 
         paintBound = new Paint();
@@ -167,12 +164,13 @@ public class PasswordEditText extends EditText {
         this.pointRadius = pointRadius;
     }
 
+    //重置
     public void reset(){
         setText("");
         invalidate();
     }
 
-
+    //输入完成回调
     public  interface OnTextEndListener{
         void onTextEndListener(String string);
     }

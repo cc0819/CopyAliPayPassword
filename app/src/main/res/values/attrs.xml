@@ -6,7 +6,6 @@
         <attr name="colorBound" format="color" />
         <attr name="passwordLength" format="integer" />
         <attr name="pointRadius" format="integer" />
-
     </declare-styleable>
 
 </resources>
